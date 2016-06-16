@@ -1,0 +1,22 @@
+{
+    "url" : "https://your.server.host:5533",
+    "secureProtocolOptions" : {
+        "keyPath" : "keys/key.pem",
+        "certPath" : "keys/cert.pem",
+        "caPath" : "keys/ca.pem",
+        "ssl" : true,
+        "plain" : true
+    },
+    "useSpdy" : true,
+    "tokenSecret" : "Default.S2cr2t",
+    "logging" : {
+        "disabled": false,
+        "audit": true,
+        "level": "info",
+        "rotating" : {
+            "period": "1d",
+            "count": 5
+        }
+    }
+
+}

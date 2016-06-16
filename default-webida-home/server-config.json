@@ -1,0 +1,15 @@
+{
+    "url" : "http://localhost:3355",
+    "secureProtocolOptions" : {},
+    "useSpdy" : false,
+    "tokenSecret" : "Default.S2cr2t",
+    "logging" : {
+        "disabled": false,
+        "audit": false,
+        "level": "info",
+        "rotating" : {
+            "period": "1d",
+            "count": 10
+        }
+    }
+}
