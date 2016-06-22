@@ -1,0 +1,35 @@
+env:
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+
+root: true
+
+# rule of rules
+#  1) 'Style' isn't so important. Just keep consistency in single file, and make it readable.
+#     Spend your time with good naming and refactorings for robust logics.
+#  2) Basically, lint rules cares about (possible) 'bugs' and 'performance' problems.
+#     It's beyond style.
+
+rules:
+  default-case:
+    - error
+
+  no-unexpected-multiline:
+    - error
+
+  # In most case, http middlewares have some 'unused' args, but cannot change signuature
+  no-unused-vars:
+    - error
+    - args: "none"
+      vars: "all"
+
+  # prefer let, const, to avoid hoisting-related problems. true block-scoping saves us.
+  no-var:
+    - warn
+
+  semi:
+    - error
+# variable permitted to use in global, not born from node.js itself
+globals:
+  __webida: true

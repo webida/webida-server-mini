@@ -2,12 +2,13 @@
   "workspaces": {
     "36ce2ee8-8278-4d07-9a33-4d8cc4aae5f3": {
       "id": "36ce2ee8-8278-4d07-9a33-4d8cc4aae5f3",
-      "rootPath": "c:\\works\\webstorm",
-      "workspacePath": "c:\\works\\webstorm\\webida-desktop",
       "name": "webida-desktop",
       "description": "webida desktop project",
       "createdAt": "2016-06-09T04:50:36.312Z",
-      "accessedAt": "2016-06-15T10:31:33.920Z"
+      "accessedAt": "2016-06-22T05:35:03.006Z",
+      "rootPath": "c:\\works\\webstorm",
+      "workspacePath": "c:\\works\\webstorm\\webida-desktop",
+      "disposable": false
     }
   }
 }

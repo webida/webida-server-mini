@@ -1,0 +1,8 @@
+{
+  "url": "http://localhost:3355",
+  "secureProtocolOptions": {},
+  "useSpdy": false,
+  "tokenSecret": "Default.S2cr2t",
+  "loginId" : "webida",
+  "loginPassword" : "web2d@42"
+}
