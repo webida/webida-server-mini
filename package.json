@@ -1,27 +1,33 @@
 {
   "name": "webida-server",
-  "main" : "webida-server.js",
+  "main": "webida-server.js",
   "dependencies": {
-    "async": "^0.9.0",
     "bluebird": "^3.3.5",
     "bunyan": "^1.8.1",
     "chokidar": "^1.5.1",
     "core-util-is": "^1.0.1",
     "debug": "^2.2.0",
-    "enumify": "^1.0.4",
     "fs-extra": "^0.30.0",
-    "git-http-backend": "^1.0.0",
-    "js-yaml": "^3.2.6",
     "jsonwebtoken": "^7.0.0",
     "lodash": "^4.13.1",
+    "minimist": "^1.2.0",
     "node-uuid": "^1.4.7",
-    "restify": "^4.0.3",
+    "restify": "^4.1.1",
     "shortid": "^2.2.6",
     "socket.io": "^1.4.5",
-    "swaggerize-routes": "^1.0.8",
-    "through2": "^2.0.1",
-    "upath": "^0.1.7",
     "urijs": "^1.18.0",
-    "yargs": "^4.7.1"
-  }	
+
+    "git-http-backend": "^1.0.0",
+    "through2": "^2.0.1",
+
+    "async": "^0.9.0",
+    "caller" : "^1.0.1",
+    "debug-log" : "^1.0.1",
+    "enjoi" : "^1.0.0",
+    "js-yaml": "^3.2.6",
+    "swagger-official-schema": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.0"
+  }
 }

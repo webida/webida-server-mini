@@ -1,0 +1,12 @@
+{
+  "url": "https://your.server.host:5533",
+  "secureProtocolOptions": {
+    "keyPath": "keys/key.pem",
+    "certPath": "keys/cert.pem",
+    "caPath": "keys/ca.pem",
+    "ssl": true,
+    "plain": true
+  },
+  "useSpdy": false,
+  "tokenSecret": "Default.S2cr2t"
+}
