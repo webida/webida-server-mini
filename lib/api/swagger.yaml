@@ -1011,7 +1011,7 @@ definitions:
         type: string
         format: date-time
       workspacePath:
-        description: absolute path of this workspace in server. not always available
+        description: absolute path of this workspace in server. (not always available)
         type: string
     required:
       - id
@@ -1070,7 +1070,6 @@ definitions:
       - id
       - name
       - state
-      - workspaceId
       - clientAddress
       - connectedAt
       - disconnectedAt

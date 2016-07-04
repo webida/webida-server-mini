@@ -2,7 +2,7 @@
   "name": "webida-server",
   "main": "webida-server.js",
   "dependencies": {
-    "bluebird": "^3.3.5",
+    "bluebird": "^3.4.1",
     "bunyan": "^1.8.1",
     "chokidar": "^1.5.1",
     "core-util-is": "^1.0.1",

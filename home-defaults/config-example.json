@@ -1,9 +1,10 @@
 {
   "url": "https://your.server.host:5533",
   "secureProtocolOptions": {
-    "keyPath": "keys/key.pem",
-    "certPath": "keys/cert.pem",
-    "caPath": "keys/ca.pem",
+    "key": "keys/key.pem",
+    "cert": "keys/cert.pem",
+    "ca": "keys/ca.pem",
+    "passphrase" : "rycb&R42",
     "ssl": true,
     "plain": true
   },
