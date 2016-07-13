@@ -1,9 +1,8 @@
 "use strict";
 
-var WebidaServer = require('./lib/WebidaServer.js');
-var server = new WebidaServer();
+const WebidaServer = require('./lib/WebidaServer.js');
+const server = new WebidaServer();
 
-// look lib/embedder.js what to do
 server.init().then(
     () => server.start()
 ).then(
