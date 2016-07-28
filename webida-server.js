@@ -1,5 +1,9 @@
 "use strict";
 
+require('./lib/init/init-process.js');
+const { debugFactory } = __webida.libs;
+const debug = debugFactory(module);
+
 const WebidaServer = require('./lib/WebidaServer.js');
 const server = new WebidaServer();
 
@@ -10,10 +14,10 @@ server.init().then(
         // add some signal handler
         //   SIGTERM - stop server and exit process
         //   SIGHUP - restart server and continue
-        console.log('server started ');
+        debug('server started ');
     }
 ).catch( (e) => {
-    console.error('server could not start ', e);
+    debuug(e, 'server could not start ');
     process.exit(-1);
 });
 
@@ -23,4 +27,3 @@ server.init().then(
 // signal handlers 
 //  - SIGHUP : restart server
 //  - SIGTERM : stop, destroy server & shutdown 
-

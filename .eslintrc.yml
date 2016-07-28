@@ -18,7 +18,7 @@ rules:
   no-unexpected-multiline:
     - error
 
-  # In most case, http middlewares have some 'unused' args, but cannot change signuature
+  # In many cases, http middlewares have some 'unused' args, but cannot change signuature
   no-unused-vars:
     - error
     - args: "none"
@@ -30,6 +30,8 @@ rules:
 
   semi:
     - error
+
 # variable permitted to use in global, not born from node.js itself
 globals:
   __webida: true
+
