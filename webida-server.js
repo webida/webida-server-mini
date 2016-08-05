@@ -7,17 +7,25 @@ const debug = debugFactory(module);
 const WebidaServer = require('./lib/WebidaServer.js');
 const server = new WebidaServer();
 
-server.init().then(
-    () => server.start()
-).then(
-    () => {
+server.init()
+    .then( () => {
+        debug('server init complete');
+        return server.start();
+    })
+    .then( () => {
+        debug('server start complete ');
+
+        setTimeout( () => {
+            server.stop().then( ()=> server.destroy() );
+        }, 3000);
+
         // add some signal handler
         //   SIGTERM - stop server and exit process
         //   SIGHUP - restart server and continue
-        debug('server started ');
+
     }
 ).catch( (e) => {
-    debuug(e, 'server could not start ');
+    debug(e, 'server could not start ');
     process.exit(-1);
 });
 
