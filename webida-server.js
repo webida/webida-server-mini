@@ -14,15 +14,6 @@ server.init()
     })
     .then( () => {
         debug('server start complete ');
-
-        setTimeout( () => {
-            server.stop().then( ()=> server.destroy() );
-        }, 3000);
-
-        // add some signal handler
-        //   SIGTERM - stop server and exit process
-        //   SIGHUP - restart server and continue
-
     }
 ).catch( (e) => {
     debug(e, 'server could not start ');

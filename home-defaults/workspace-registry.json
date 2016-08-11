@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "c1544d74-42b9-498f-8fdb-33cabe17bf58",
+    "name": "webida-desktop",
+    "description": "ephemeral workspace created by launcher",
+    "createdAt": "2016-08-11T11:33:03.868Z",
+    "workspacePath": "C:\\works\\webstorm\\webida-desktop",
+    "excludedPaths": [
+      ".git",
+      "node_modules",
+      "bower_components"
+    ],
+    "offlineCachePaths": [],
+    "acessedAt": "2016-08-11T11:33:16.436Z",
+    "ephemeral": true,
+    "rootPath": "C:\\works\\webstorm"
+  }
+]

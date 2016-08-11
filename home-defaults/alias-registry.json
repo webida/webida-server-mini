@@ -1,3 +1,7 @@
-{
-  "aliases": {}
-}
+[
+  {
+    "id" : "aatest",
+    "workspaceId" : "c1544d74-42b9-498f-8fdb-33cabe17bf58",
+    "sourcePath" : "webida-desktop"
+  }
+]
