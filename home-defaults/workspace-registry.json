@@ -1,20 +1,18 @@
-{
-  "workspaces": {
-    "4effdd36-695b-4f26-a99c-95394dd182be": {
-      "id": "4effdd36-695b-4f26-a99c-95394dd182be",
-      "name": "webida-desktop",
-      "description": "webida desktop workspace",
-      "createdAt": "2016-07-13T13:00:29.635Z",
-      "accessedAt": "2016-07-13T13:00:29.635Z",
-      "rootPath": "C:\\works\\webstorm",
-      "workspacePath": "C:\\works\\webstorm\\webida-desktop",
-      "disposable": false,
-      "excludedPaths": [
-        ".git",
-        "bower_components",
-        "node_modules"
-      ],
-      "offlineCachePaths": []
-    }
+[
+  {
+    "id": "c1544d74-42b9-498f-8fdb-33cabe17bf58",
+    "name": "webida-desktop",
+    "description": "ephemeral workspace created by launcher",
+    "createdAt": "2016-08-11T11:33:03.868Z",
+    "workspacePath": "C:\\works\\webstorm\\webida-desktop",
+    "excludedPaths": [
+      ".git",
+      "node_modules",
+      "bower_components"
+    ],
+    "offlineCachePaths": [],
+    "acessedAt": "2016-08-17T08:17:24.301Z",
+    "ephemeral": true,
+    "rootPath": "C:\\works\\webstorm"
   }
-}
+]
